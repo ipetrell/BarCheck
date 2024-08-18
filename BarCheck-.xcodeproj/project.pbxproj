@@ -7,19 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D50C1F5C2AFC3A5C00AA49E3 /* ListBarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C1F5B2AFC3A5C00AA49E3 /* ListBarPage.swift */; };
+		D50C1F5F2AFD488000AA49E3 /* GooglePlaces.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50C1F5E2AFD488000AA49E3 /* GooglePlaces.xcframework */; };
+		D50C1F632AFD48EE00AA49E3 /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D50C1F622AFD48EE00AA49E3 /* GooglePlaces.bundle */; };
+		D50C1F652AFD493200AA49E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50C1F642AFD493200AA49E3 /* CoreGraphics.framework */; };
+		D50C1F672AFD493C00AA49E3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50C1F662AFD493C00AA49E3 /* CoreLocation.framework */; };
+		D50C1F692AFD494A00AA49E3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D50C1F682AFD494A00AA49E3 /* libc++.tbd */; };
+		D50C1F6B2AFD495500AA49E3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D50C1F6A2AFD495500AA49E3 /* libz.tbd */; };
+		D50C1F6D2AFD496000AA49E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50C1F6C2AFD496000AA49E3 /* QuartzCore.framework */; };
+		D50C1F6F2AFD496700AA49E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50C1F6E2AFD496700AA49E3 /* UIKit.framework */; };
+		D50C1F752AFDBD9B00AA49E3 /* BookmarkPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C1F742AFDBD9B00AA49E3 /* BookmarkPage.swift */; };
+		D557231D2B14281600DF2F7F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D557231C2B14281600DF2F7F /* FirebaseFirestore */; };
+		D557231F2B1432F800DF2F7F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D557231E2B1432F800DF2F7F /* FirebaseFirestoreSwift */; };
+		D55723272B1A7CE700DF2F7F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55723262B1A7CE700DF2F7F /* LocationManager.swift */; };
+		D5592F442AF170830008A31F /* BarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5592F432AF170830008A31F /* BarDetailView.swift */; };
+		D574270F2AE5A0C500AA18B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D574270E2AE5A0C500AA18B2 /* GoogleService-Info.plist */; };
+		D57427102AE5A0C500AA18B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D574270E2AE5A0C500AA18B2 /* GoogleService-Info.plist */; };
+		D57427112AE5A0C500AA18B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D574270E2AE5A0C500AA18B2 /* GoogleService-Info.plist */; };
+		D58828032B0AD83600BF4669 /* ReviewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58828022B0AD83600BF4669 /* ReviewPage.swift */; };
 		D5AC8A312ADF36D40080EEB0 /* BarCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC8A302ADF36D40080EEB0 /* BarCheckApp.swift */; };
 		D5AC8A332ADF36D40080EEB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC8A322ADF36D40080EEB0 /* ContentView.swift */; };
 		D5AC8A352ADF36D50080EEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AC8A342ADF36D50080EEB0 /* Assets.xcassets */; };
 		D5AC8A382ADF36D50080EEB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AC8A372ADF36D50080EEB0 /* Preview Assets.xcassets */; };
-		D5AC8A422ADF36D50080EEB0 /* BarCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC8A412ADF36D50080EEB0 /* BarCheckTests.swift */; };
-		D5AC8A4C2ADF36D50080EEB0 /* BarCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC8A4B2ADF36D50080EEB0 /* BarCheckUITests.swift */; };
-		D5AC8A4E2ADF36D50080EEB0 /* BarCheckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC8A4D2ADF36D50080EEB0 /* BarCheckUITestsLaunchTests.swift */; };
+		D5AC8A422ADF36D50080EEB0 /* BarCheck-Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC8A412ADF36D50080EEB0 /* BarCheck-Tests.swift */; };
+		D5AC8A4C2ADF36D50080EEB0 /* BarCheck-UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC8A4B2ADF36D50080EEB0 /* BarCheck-UITests.swift */; };
+		D5AC8A4E2ADF36D50080EEB0 /* BarCheck-UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC8A4D2ADF36D50080EEB0 /* BarCheck-UITestsLaunchTests.swift */; };
 		D5AC8A5B2ADF56B30080EEB0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC8A5A2ADF56B30080EEB0 /* Login.swift */; };
-		D5AC8A5D2ADF67410080EEB0 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC8A5C2ADF67410080EEB0 /* View3.swift */; };
+		D5AC8A5D2ADF67410080EEB0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC8A5C2ADF67410080EEB0 /* CustomTextField.swift */; };
 		D5AC8A602AE06AE00080EEB0 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = D5AC8A5F2AE06AE00080EEB0 /* GoogleSignIn */; };
 		D5AC8A622AE06AE00080EEB0 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D5AC8A612AE06AE00080EEB0 /* GoogleSignInSwift */; };
 		D5AC8A652AE06C520080EEB0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D5AC8A642AE06C520080EEB0 /* FirebaseAuth */; };
-		D5AC8A692AE07E080080EEB0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5AC8A682AE07E080080EEB0 /* GoogleService-Info.plist */; };
+		D5AC8A692AE07E080080EEB0 /* GoogleService--Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5AC8A682AE07E080080EEB0 /* GoogleService--Info.plist */; };
+		D5AC8A6D2AE08C970080EEB0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AC8A6C2AE08C970080EEB0 /* LoginViewModel.swift */; };
+		D5B6A96F2B7ABC8700DD5C08 /* BookmarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6A96E2B7ABC8700DD5C08 /* BookmarkViewModel.swift */; };
+		D5DAA9BF2B8C065500C44650 /* LogoutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DAA9BE2B8C065500C44650 /* LogoutPage.swift */; };
+		D5DAA9C12B96AA5400C44650 /* UserReviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DAA9C02B96AA5400C44650 /* UserReviewsView.swift */; };
+		D5DAA9C32B96AA8E00C44650 /* ReviewDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DAA9C22B96AA8E00C44650 /* ReviewDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,21 +63,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D5AC8A2D2ADF36D40080EEB0 /* BarCheck_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCheck_.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50C1F5B2AFC3A5C00AA49E3 /* ListBarPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBarPage.swift; sourceTree = "<group>"; };
+		D50C1F5E2AFD488000AA49E3 /* GooglePlaces.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GooglePlaces.xcframework; path = "../../../../Downloads/GooglePlaces-8.2.1/Frameworks/GooglePlaces.xcframework"; sourceTree = "<group>"; };
+		D50C1F622AFD48EE00AA49E3 /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = "../../../../../Downloads/GooglePlaces-8.2.1/Frameworks/GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/Resources/GooglePlaces.bundle"; sourceTree = "<group>"; };
+		D50C1F642AFD493200AA49E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D50C1F662AFD493C00AA49E3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D50C1F682AFD494A00AA49E3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D50C1F6A2AFD495500AA49E3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D50C1F6C2AFD496000AA49E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D50C1F6E2AFD496700AA49E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D50C1F742AFDBD9B00AA49E3 /* BookmarkPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkPage.swift; sourceTree = "<group>"; };
+		D55723262B1A7CE700DF2F7F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D5592F432AF170830008A31F /* BarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarDetailView.swift; sourceTree = "<group>"; };
+		D574270E2AE5A0C500AA18B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D58828022B0AD83600BF4669 /* ReviewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewPage.swift; sourceTree = "<group>"; };
+		D5AC8A2D2ADF36D40080EEB0 /* BarCheck-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BarCheck-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5AC8A302ADF36D40080EEB0 /* BarCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCheckApp.swift; sourceTree = "<group>"; };
 		D5AC8A322ADF36D40080EEB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5AC8A342ADF36D50080EEB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5AC8A372ADF36D50080EEB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D5AC8A3D2ADF36D50080EEB0 /* BarCheck_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarCheck_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5AC8A412ADF36D50080EEB0 /* BarCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCheckTests.swift; sourceTree = "<group>"; };
-		D5AC8A472ADF36D50080EEB0 /* BarCheck_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarCheck_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5AC8A4B2ADF36D50080EEB0 /* BarCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCheckUITests.swift; sourceTree = "<group>"; };
-		D5AC8A4D2ADF36D50080EEB0 /* BarCheckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCheckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5AC8A3D2ADF36D50080EEB0 /* BarCheck-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BarCheck-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AC8A412ADF36D50080EEB0 /* BarCheck-Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BarCheck-Tests.swift"; sourceTree = "<group>"; };
+		D5AC8A472ADF36D50080EEB0 /* BarCheck-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BarCheck-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AC8A4B2ADF36D50080EEB0 /* BarCheck-UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BarCheck-UITests.swift"; sourceTree = "<group>"; };
+		D5AC8A4D2ADF36D50080EEB0 /* BarCheck-UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BarCheck-UITestsLaunchTests.swift"; sourceTree = "<group>"; };
 		D5AC8A5A2ADF56B30080EEB0 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		D5AC8A5C2ADF67410080EEB0 /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
-		D5AC8A682AE07E080080EEB0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5AC8A5C2ADF67410080EEB0 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		D5AC8A682AE07E080080EEB0 /* GoogleService--Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService--Info.plist"; path = "../../../../../Downloads/GoogleService--Info.plist"; sourceTree = "<group>"; };
 		D5AC8A6A2AE07E240080EEB0 /* BarCheck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarCheck-Info.plist"; sourceTree = SOURCE_ROOT; };
-		D5AC8A6B2AE0826A0080EEB0 /* BarCheck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BarCheck.entitlements; sourceTree = "<group>"; };
+		D5AC8A6B2AE0826A0080EEB0 /* BarCheck_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BarCheck_.entitlements; sourceTree = "<group>"; };
+		D5AC8A6C2AE08C970080EEB0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D5B6A96E2B7ABC8700DD5C08 /* BookmarkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewModel.swift; sourceTree = "<group>"; };
+		D5DAA9BE2B8C065500C44650 /* LogoutPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutPage.swift; sourceTree = "<group>"; };
+		D5DAA9C02B96AA5400C44650 /* UserReviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReviewsView.swift; sourceTree = "<group>"; };
+		D5DAA9C22B96AA8E00C44650 /* ReviewDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +104,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50C1F6F2AFD496700AA49E3 /* UIKit.framework in Frameworks */,
+				D50C1F6D2AFD496000AA49E3 /* QuartzCore.framework in Frameworks */,
+				D50C1F6B2AFD495500AA49E3 /* libz.tbd in Frameworks */,
+				D50C1F692AFD494A00AA49E3 /* libc++.tbd in Frameworks */,
+				D50C1F672AFD493C00AA49E3 /* CoreLocation.framework in Frameworks */,
+				D50C1F652AFD493200AA49E3 /* CoreGraphics.framework in Frameworks */,
+				D50C1F5F2AFD488000AA49E3 /* GooglePlaces.xcframework in Frameworks */,
 				D5AC8A602AE06AE00080EEB0 /* GoogleSignIn in Frameworks */,
 				D5AC8A652AE06C520080EEB0 /* FirebaseAuth in Frameworks */,
+				D557231D2B14281600DF2F7F /* FirebaseFirestore in Frameworks */,
 				D5AC8A622AE06AE00080EEB0 /* GoogleSignInSwift in Frameworks */,
+				D557231F2B1432F800DF2F7F /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,40 +136,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D50C1F5D2AFD488000AA49E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D50C1F6E2AFD496700AA49E3 /* UIKit.framework */,
+				D50C1F6C2AFD496000AA49E3 /* QuartzCore.framework */,
+				D50C1F6A2AFD495500AA49E3 /* libz.tbd */,
+				D50C1F682AFD494A00AA49E3 /* libc++.tbd */,
+				D50C1F662AFD493C00AA49E3 /* CoreLocation.framework */,
+				D50C1F642AFD493200AA49E3 /* CoreGraphics.framework */,
+				D50C1F5E2AFD488000AA49E3 /* GooglePlaces.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D5AC8A242ADF36D40080EEB0 = {
 			isa = PBXGroup;
 			children = (
-				D5AC8A6B2AE0826A0080EEB0 /* BarCheck.entitlements */,
-				D5AC8A2F2ADF36D40080EEB0 /* BarCheck */,
-				D5AC8A402ADF36D50080EEB0 /* BarCheckTests */,
-				D5AC8A4A2ADF36D50080EEB0 /* BarCheckUITests */,
+				D5AC8A6B2AE0826A0080EEB0 /* BarCheck_.entitlements */,
+				D5AC8A2F2ADF36D40080EEB0 /* BarCheck- */,
+				D5AC8A402ADF36D50080EEB0 /* BarCheck-Tests */,
+				D5AC8A4A2ADF36D50080EEB0 /* BarCheck-UITests */,
 				D5AC8A2E2ADF36D40080EEB0 /* Products */,
+				D50C1F5D2AFD488000AA49E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D5AC8A2E2ADF36D40080EEB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5AC8A2D2ADF36D40080EEB0 /* BarCheck_.app */,
-				D5AC8A3D2ADF36D50080EEB0 /* BarCheck_Tests.xctest */,
-				D5AC8A472ADF36D50080EEB0 /* BarCheck_UITests.xctest */,
+				D5AC8A2D2ADF36D40080EEB0 /* BarCheck-.app */,
+				D5AC8A3D2ADF36D50080EEB0 /* BarCheck-Tests.xctest */,
+				D5AC8A472ADF36D50080EEB0 /* BarCheck-UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5AC8A2F2ADF36D40080EEB0 /* BarCheck */ = {
+		D5AC8A2F2ADF36D40080EEB0 /* BarCheck- */ = {
 			isa = PBXGroup;
 			children = (
+				D50C1F622AFD48EE00AA49E3 /* GooglePlaces.bundle */,
+				D574270E2AE5A0C500AA18B2 /* GoogleService-Info.plist */,
 				D5AC8A6A2AE07E240080EEB0 /* BarCheck-Info.plist */,
-				D5AC8A682AE07E080080EEB0 /* GoogleService-Info.plist */,
+				D5AC8A682AE07E080080EEB0 /* GoogleService--Info.plist */,
 				D5AC8A302ADF36D40080EEB0 /* BarCheckApp.swift */,
 				D5AC8A322ADF36D40080EEB0 /* ContentView.swift */,
+				D5DAA9BE2B8C065500C44650 /* LogoutPage.swift */,
+				D5DAA9C02B96AA5400C44650 /* UserReviewsView.swift */,
+				D5DAA9C22B96AA8E00C44650 /* ReviewDetailView.swift */,
+				D55723262B1A7CE700DF2F7F /* LocationManager.swift */,
+				D50C1F742AFDBD9B00AA49E3 /* BookmarkPage.swift */,
+				D5B6A96E2B7ABC8700DD5C08 /* BookmarkViewModel.swift */,
+				D5592F432AF170830008A31F /* BarDetailView.swift */,
 				D5AC8A5A2ADF56B30080EEB0 /* Login.swift */,
-				D5AC8A5C2ADF67410080EEB0 /* View3.swift */,
+				D50C1F5B2AFC3A5C00AA49E3 /* ListBarPage.swift */,
+				D58828022B0AD83600BF4669 /* ReviewPage.swift */,
+				D5AC8A5C2ADF67410080EEB0 /* CustomTextField.swift */,
+				D5AC8A6C2AE08C970080EEB0 /* LoginViewModel.swift */,
 				D5AC8A342ADF36D50080EEB0 /* Assets.xcassets */,
 				D5AC8A362ADF36D50080EEB0 /* Preview Content */,
 			);
-			path = BarCheck;
+			path = "BarCheck-";
 			sourceTree = "<group>";
 		};
 		D5AC8A362ADF36D50080EEB0 /* Preview Content */ = {
@@ -129,29 +207,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D5AC8A402ADF36D50080EEB0 /* BarCheckTests */ = {
+		D5AC8A402ADF36D50080EEB0 /* BarCheck-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				D5AC8A412ADF36D50080EEB0 /* BarCheckTests.swift */,
+				D5AC8A412ADF36D50080EEB0 /* BarCheck-Tests.swift */,
 			);
-			path = BarCheckTests;
+			path = "BarCheck-Tests";
 			sourceTree = "<group>";
 		};
-		D5AC8A4A2ADF36D50080EEB0 /* BarCheckUITests */ = {
+		D5AC8A4A2ADF36D50080EEB0 /* BarCheck-UITests */ = {
 			isa = PBXGroup;
 			children = (
-				D5AC8A4B2ADF36D50080EEB0 /* BarCheckUITests.swift */,
-				D5AC8A4D2ADF36D50080EEB0 /* BarCheckUITestsLaunchTests.swift */,
+				D5AC8A4B2ADF36D50080EEB0 /* BarCheck-UITests.swift */,
+				D5AC8A4D2ADF36D50080EEB0 /* BarCheck-UITestsLaunchTests.swift */,
 			);
-			path = BarCheckUITests;
+			path = "BarCheck-UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5AC8A2C2ADF36D40080EEB0 /* BarCheck_ */ = {
+		D5AC8A2C2ADF36D40080EEB0 /* BarCheck- */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5AC8A512ADF36D50080EEB0 /* Build configuration list for PBXNativeTarget "BarCheck_" */;
+			buildConfigurationList = D5AC8A512ADF36D50080EEB0 /* Build configuration list for PBXNativeTarget "BarCheck-" */;
 			buildPhases = (
 				D5AC8A292ADF36D40080EEB0 /* Sources */,
 				D5AC8A2A2ADF36D40080EEB0 /* Frameworks */,
@@ -161,19 +239,21 @@
 			);
 			dependencies = (
 			);
-			name = BarCheck_;
+			name = "BarCheck-";
 			packageProductDependencies = (
 				D5AC8A5F2AE06AE00080EEB0 /* GoogleSignIn */,
 				D5AC8A612AE06AE00080EEB0 /* GoogleSignInSwift */,
 				D5AC8A642AE06C520080EEB0 /* FirebaseAuth */,
+				D557231C2B14281600DF2F7F /* FirebaseFirestore */,
+				D557231E2B1432F800DF2F7F /* FirebaseFirestoreSwift */,
 			);
 			productName = BarCheck_;
-			productReference = D5AC8A2D2ADF36D40080EEB0 /* BarCheck_.app */;
+			productReference = D5AC8A2D2ADF36D40080EEB0 /* BarCheck-.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D5AC8A3C2ADF36D50080EEB0 /* BarCheck_Tests */ = {
+		D5AC8A3C2ADF36D50080EEB0 /* BarCheck-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5AC8A542ADF36D50080EEB0 /* Build configuration list for PBXNativeTarget "BarCheck_Tests" */;
+			buildConfigurationList = D5AC8A542ADF36D50080EEB0 /* Build configuration list for PBXNativeTarget "BarCheck-Tests" */;
 			buildPhases = (
 				D5AC8A392ADF36D50080EEB0 /* Sources */,
 				D5AC8A3A2ADF36D50080EEB0 /* Frameworks */,
@@ -184,14 +264,14 @@
 			dependencies = (
 				D5AC8A3F2ADF36D50080EEB0 /* PBXTargetDependency */,
 			);
-			name = BarCheck_Tests;
+			name = "BarCheck-Tests";
 			productName = BarCheck_Tests;
-			productReference = D5AC8A3D2ADF36D50080EEB0 /* BarCheck_Tests.xctest */;
+			productReference = D5AC8A3D2ADF36D50080EEB0 /* BarCheck-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D5AC8A462ADF36D50080EEB0 /* BarCheck_UITests */ = {
+		D5AC8A462ADF36D50080EEB0 /* BarCheck-UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5AC8A572ADF36D50080EEB0 /* Build configuration list for PBXNativeTarget "BarCheck_UITests" */;
+			buildConfigurationList = D5AC8A572ADF36D50080EEB0 /* Build configuration list for PBXNativeTarget "BarCheck-UITests" */;
 			buildPhases = (
 				D5AC8A432ADF36D50080EEB0 /* Sources */,
 				D5AC8A442ADF36D50080EEB0 /* Frameworks */,
@@ -202,9 +282,9 @@
 			dependencies = (
 				D5AC8A492ADF36D50080EEB0 /* PBXTargetDependency */,
 			);
-			name = BarCheck_UITests;
+			name = "BarCheck-UITests";
 			productName = BarCheck_UITests;
-			productReference = D5AC8A472ADF36D50080EEB0 /* BarCheck_UITests.xctest */;
+			productReference = D5AC8A472ADF36D50080EEB0 /* BarCheck-UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -230,7 +310,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D5AC8A282ADF36D40080EEB0 /* Build configuration list for PBXProject "BarCheck" */;
+			buildConfigurationList = D5AC8A282ADF36D40080EEB0 /* Build configuration list for PBXProject "BarCheck-" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -247,9 +327,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5AC8A2C2ADF36D40080EEB0 /* BarCheck_ */,
-				D5AC8A3C2ADF36D50080EEB0 /* BarCheck_Tests */,
-				D5AC8A462ADF36D50080EEB0 /* BarCheck_UITests */,
+				D5AC8A2C2ADF36D40080EEB0 /* BarCheck- */,
+				D5AC8A3C2ADF36D50080EEB0 /* BarCheck-Tests */,
+				D5AC8A462ADF36D50080EEB0 /* BarCheck-UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,8 +340,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5AC8A382ADF36D50080EEB0 /* Preview Assets.xcassets in Resources */,
-				D5AC8A692AE07E080080EEB0 /* GoogleService-Info.plist in Resources */,
+				D574270F2AE5A0C500AA18B2 /* GoogleService-Info.plist in Resources */,
+				D5AC8A692AE07E080080EEB0 /* GoogleService--Info.plist in Resources */,
 				D5AC8A352ADF36D50080EEB0 /* Assets.xcassets in Resources */,
+				D50C1F632AFD48EE00AA49E3 /* GooglePlaces.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57427102AE5A0C500AA18B2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57427112AE5A0C500AA18B2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,10 +370,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5AC8A5D2ADF67410080EEB0 /* View3.swift in Sources */,
+				D5AC8A5D2ADF67410080EEB0 /* CustomTextField.swift in Sources */,
+				D5DAA9C32B96AA8E00C44650 /* ReviewDetailView.swift in Sources */,
+				D5592F442AF170830008A31F /* BarDetailView.swift in Sources */,
+				D5DAA9BF2B8C065500C44650 /* LogoutPage.swift in Sources */,
+				D55723272B1A7CE700DF2F7F /* LocationManager.swift in Sources */,
 				D5AC8A332ADF36D40080EEB0 /* ContentView.swift in Sources */,
+				D50C1F752AFDBD9B00AA49E3 /* BookmarkPage.swift in Sources */,
+				D50C1F5C2AFC3A5C00AA49E3 /* ListBarPage.swift in Sources */,
 				D5AC8A5B2ADF56B30080EEB0 /* Login.swift in Sources */,
+				D5B6A96F2B7ABC8700DD5C08 /* BookmarkViewModel.swift in Sources */,
+				D58828032B0AD83600BF4669 /* ReviewPage.swift in Sources */,
+				D5DAA9C12B96AA5400C44650 /* UserReviewsView.swift in Sources */,
 				D5AC8A312ADF36D40080EEB0 /* BarCheckApp.swift in Sources */,
+				D5AC8A6D2AE08C970080EEB0 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5AC8A422ADF36D50080EEB0 /* BarCheckTests.swift in Sources */,
+				D5AC8A422ADF36D50080EEB0 /* BarCheck-Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,8 +399,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5AC8A4C2ADF36D50080EEB0 /* BarCheckUITests.swift in Sources */,
-				D5AC8A4E2ADF36D50080EEB0 /* BarCheckUITestsLaunchTests.swift in Sources */,
+				D5AC8A4C2ADF36D50080EEB0 /* BarCheck-UITests.swift in Sources */,
+				D5AC8A4E2ADF36D50080EEB0 /* BarCheck-UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,12 +409,12 @@
 /* Begin PBXTargetDependency section */
 		D5AC8A3F2ADF36D50080EEB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D5AC8A2C2ADF36D40080EEB0 /* BarCheck_ */;
+			target = D5AC8A2C2ADF36D40080EEB0 /* BarCheck- */;
 			targetProxy = D5AC8A3E2ADF36D50080EEB0 /* PBXContainerItemProxy */;
 		};
 		D5AC8A492ADF36D50080EEB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D5AC8A2C2ADF36D40080EEB0 /* BarCheck_ */;
+			target = D5AC8A2C2ADF36D40080EEB0 /* BarCheck- */;
 			targetProxy = D5AC8A482ADF36D50080EEB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -451,27 +545,30 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BarCheck_.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BarCheck_/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BarCheck-/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BarCheck--Info.plist";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.IsaacPetrella.BarCheck;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IsaacPetrella.BarCheck-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,27 +581,30 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BarCheck_.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BarCheck_/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BarCheck-/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BarCheck--Info.plist";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.IsaacPetrella.BarCheck;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IsaacPetrella.BarCheck-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -519,6 +619,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"HEADER_SEARCH_PATHS = \\\"${SRCROOT}/Pods/Firebase/CoreOnly/Sources\\\"\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IsaacPetrella.BarCheck-Tests";
@@ -538,6 +639,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"HEADER_SEARCH_PATHS = \\\"${SRCROOT}/Pods/Firebase/CoreOnly/Sources\\\"\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IsaacPetrella.BarCheck-Tests";
@@ -586,7 +688,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5AC8A282ADF36D40080EEB0 /* Build configuration list for PBXProject "BarCheck" */ = {
+		D5AC8A282ADF36D40080EEB0 /* Build configuration list for PBXProject "BarCheck-" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5AC8A4F2ADF36D50080EEB0 /* Debug */,
@@ -595,7 +697,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5AC8A512ADF36D50080EEB0 /* Build configuration list for PBXNativeTarget "BarCheck_" */ = {
+		D5AC8A512ADF36D50080EEB0 /* Build configuration list for PBXNativeTarget "BarCheck-" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5AC8A522ADF36D50080EEB0 /* Debug */,
@@ -604,7 +706,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5AC8A542ADF36D50080EEB0 /* Build configuration list for PBXNativeTarget "BarCheck_Tests" */ = {
+		D5AC8A542ADF36D50080EEB0 /* Build configuration list for PBXNativeTarget "BarCheck-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5AC8A552ADF36D50080EEB0 /* Debug */,
@@ -613,7 +715,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5AC8A572ADF36D50080EEB0 /* Build configuration list for PBXNativeTarget "BarCheck_UITests" */ = {
+		D5AC8A572ADF36D50080EEB0 /* Build configuration list for PBXNativeTarget "BarCheck-UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5AC8A582ADF36D50080EEB0 /* Debug */,
@@ -630,7 +732,7 @@
 			repositoryURL = "https://github.com/google/GoogleSignin-iOS/";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
+				minimumVersion = 6.2.4;
 			};
 		};
 		D5AC8A632AE06C520080EEB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
@@ -644,6 +746,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D557231C2B14281600DF2F7F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5AC8A632AE06C520080EEB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D557231E2B1432F800DF2F7F /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5AC8A632AE06C520080EEB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
 		D5AC8A5F2AE06AE00080EEB0 /* GoogleSignIn */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D5AC8A5E2AE06AE00080EEB0 /* XCRemoteSwiftPackageReference "GoogleSignin-iOS" */;

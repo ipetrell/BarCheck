@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import Firebase
+import SwiftUI
+import CoreLocation
+import FirebaseCore
+import FirebaseAuth
+import FirebaseFirestore
+import FirebaseFirestoreSwift
+

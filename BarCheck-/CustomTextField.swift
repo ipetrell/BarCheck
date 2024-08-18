@@ -7,12 +7,33 @@
 
 import SwiftUI
 
-struct View3: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct CustomTextField: View {
+    var hint: String
+    @Binding var text: String
+    
+    // MARK: View Properties
+    @FocusState var isEnabled: Bool
+    var contentType: UITextContentType = .telephoneNumber
+    var body: some View{
+        VStack(alignment: .leading, spacing: 15) {
+            TextField(hint, text: $text)
+                .keyboardType(.numberPad)
+                .textContentType(contentType)
+                .focused($isEnabled)
+            ZStack(alignment: .leading) {
+                    Rectangle()
+                    .fill(.white.opacity(0.2))
+                
+                Rectangle()
+                    .fill(.white)
+                    .frame(width: isEnabled ? nil : 0, alignment: .leading)
+                    .animation(.easeInOut(duration: 0.3), value: isEnabled)
+            }
+            .frame(height: 2)
+        }
     }
 }
 
 #Preview {
-    View3()
+    ContentView()
 }
